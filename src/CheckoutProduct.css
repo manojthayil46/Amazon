@@ -1,0 +1,29 @@
+.CheckoutProduct {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.CheckoutProduct > img {
+  max-width: 180px;
+  width: 180px;
+  height: 180px;
+  object-fit: contain;
+}
+
+.CheckoutProduct__info {
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.CheckoutProduct__ratings {
+  display: flex;
+}
+
+.CheckoutProduct__info > button {
+  width: 150px;
+  background: #f0c14b;
+  border: 1px solid yellow;
+  margin-top: 10px;
+  color: #111;
+}
